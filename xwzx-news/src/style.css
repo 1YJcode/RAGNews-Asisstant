@@ -34,7 +34,44 @@ html.dark {
   --border-color: #3a3a3a;
   --background-color: #141414;
   --white: #1e1e1e;
+
+  /* 扩展主题变量 */
+  --card-background: #1e1e1e;
+  --card-border: #3a3a3a;
+  --code-background: #2a2a2a;
+  --hover-background: #1a3a5c;
+  --hover-border: #4dabf7;
+  --active-background: #1e1e1e;
+  --error-background: #2d1b1b;
+  --input-background: #2a2a2a;
+  --tag-background: #1a365d;
+  --suggest-hover-text: #4dabf7;
+  --popup-header-bg: #1e1e1e;
+  --session-active-bg: #1a365d;
+  --session-border: #2a2a2a;
+  --table-border: #3a3a3a;
+  --table-header-bg: #2a2a2a;
+
   color-scheme: dark;
+}
+
+/* 亮色模式变量（确保一致性） */
+:root {
+  --card-background: #fff;
+  --card-border: #f0f0f0;
+  --code-background: #f5f5f5;
+  --hover-background: #f0f8ff;
+  --hover-border: #1989fa;
+  --active-background: #f7f8fa;
+  --error-background: #fff2f0;
+  --input-background: #f7f8fa;
+  --tag-background: #ecf5ff;
+  --suggest-hover-text: #1989fa;
+  --popup-header-bg: #fff;
+  --session-active-bg: #ecf5ff;
+  --session-border: #f5f5f5;
+  --table-border: #e8e8e8;
+  --table-header-bg: #f5f5f5;
 }
 
 /* 移动端适配 */
