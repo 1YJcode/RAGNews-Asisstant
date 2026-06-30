@@ -5,7 +5,6 @@ from langchain_community.chat_models import ChatTongyi
 from langchain_core.messages import BaseMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.tools import BaseTool
-from langsmith import traceable
 from pydantic import BaseModel
 
 
@@ -210,7 +209,6 @@ async def get_agent_response(
         }
 
 
-@traceable
 async def get_agent_stream_response(
         query: str,
         session_id: str,
